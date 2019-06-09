@@ -17,11 +17,15 @@ nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 nnoremap <c-t> :tabnew<cr>
 
+" Clear last search highlighting
+nnoremap <Space> :noh<cr>
+
 set pastetoggle=<F2>
 set number
 syntax on
 set ts=4
 set et
+set hlsearch
 
 " Extend .vimrc
 runtime! vim-include/*.vim
