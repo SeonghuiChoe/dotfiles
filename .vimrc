@@ -6,6 +6,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 
+" Git
+Plug 'tpope/vim-fugitive'
+
 " Programming
 " Comment functions
 Plug 'scrooloose/nerdcommenter'
