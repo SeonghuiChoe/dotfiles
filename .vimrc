@@ -12,6 +12,8 @@ Plug 'tpope/vim-fugitive'
 " Programming
 " Comment functions
 Plug 'scrooloose/nerdcommenter'
+" Mappings to easily delete, change and add such surroundings in pairs
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
