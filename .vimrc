@@ -27,6 +27,7 @@ nnoremap <c-t> :tabnew<cr>
 " Clear last search highlighting
 nnoremap <Space> :noh<cr>
 
+set nocompatible            " Disable vi compatibility
 set pastetoggle=<F2>        " Toggle insert mode for F2
 set number                  " Show line numbers
 set tabstop=4               " Set the default tabstop
@@ -37,6 +38,10 @@ set hlsearch                " Highlight search
 set ignorecase              " Do case in sensitive matching with
 set smartcase               " Be sensitive when there's a capital letter
 set incsearch               " Enable incremental search
+set nowritebackup           " Do not create backup files
+set nobackup
+set ruler                   " Show the current cursor position on the bottom
+set history=1000            " Number of things to remember in history
 syntax on                   " Enable syntax
 
 " Highlight extra white spaces
