@@ -109,10 +109,20 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 
 # kubernetes completion & alias
 source <(kubectl completion zsh)
-alias k="kubectl"
-alias ku="kubectl"
-alias kub="kubectl"
+alias k='kubectl'
+alias ku='kubectl'
+alias kub='kubectl'
 
 # Mongodb path
 export PATH="/usr/local/opt/mongodb@3.4/bin:$PATH"
+
+# FZF
+export FZF_DEFAULT_COMMAND='
+  (git ls-files --exclude-standard -c -o ||
+   git ls-tree -r --name-only HEAD ||
+   find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
+      sed s/^..//) 2> /dev/null'
+
+# Default aliases
+alias ll='ls -alh'
 
