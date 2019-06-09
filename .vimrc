@@ -34,6 +34,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab               " Make tabs into spaces (set by tabstop)
 set hlsearch                " Highlight search
+set ignorecase              " Do case in sensitive matching with
+set smartcase               " Be sensitive when there's a capital letter
+set incsearch               " Enable incremental search
 syntax on                   " Enable syntax
 
 " Highlight extra white spaces
