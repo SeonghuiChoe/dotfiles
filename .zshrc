@@ -125,4 +125,10 @@ export FZF_DEFAULT_COMMAND='
 
 # Default aliases
 alias ll='ls -alh'
-
+alias d='docker'
+alias doco='docker-compose'
+alias di='docker image'
+alias dia='docker images'
+alias dp='docker ps'
+alias dpa='docker ps -a'
+alias dpu='docker image prune -a && docker container prune'
