@@ -13,6 +13,7 @@
   df = diff
   dif = diff
   ch = checkout
+  amend = commit --amend
 
   # === Integrated with fzf ===============================================
   # = ref. http://www.mimul.com/pebble/default/2019/08/23/1566550403384.html
