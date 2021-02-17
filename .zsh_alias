@@ -1,0 +1,17 @@
+# Default aliases
+alias ll='ls -alh'
+
+# Docker
+alias d='docker'
+alias doco='docker-compose'
+alias di='docker image'
+alias dis='docker images'
+alias dp='docker ps'
+alias dpa='docker ps -a'
+alias dsp='docker system prune -f'
+
+# Kubernetes completion & alias
+source <(kubectl completion zsh)
+alias k='kubectl'
+alias ku='kubectl'
+alias kub='kubectl'
